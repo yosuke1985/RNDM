@@ -14,6 +14,10 @@
 		336C4FF32290EDAA00B14D86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 336C4FF12290EDAA00B14D86 /* LaunchScreen.storyboard */; };
 		336C4FFE2290EDAA00B14D86 /* RNDMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336C4FFD2290EDAA00B14D86 /* RNDMTests.swift */; };
 		336C50092290EDAA00B14D86 /* RNDMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336C50082290EDAA00B14D86 /* RNDMUITests.swift */; };
+		336C50172290EE3600B14D86 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 336C50162290EE3500B14D86 /* GoogleService-Info.plist */; };
+		65D5452057E202FF7470271E /* Pods_RNDMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BDBEBEA496A943663B6DAF9 /* Pods_RNDMUITests.framework */; };
+		BE5A8DFD6982CEB7CACB7675 /* Pods_RNDM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A48C6FC44CDE4BBBC392966B /* Pods_RNDM.framework */; };
+		CF37E21702D31C940699945F /* Pods_RNDMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 474E6B4B33073F77CFDAEEF4 /* Pods_RNDMTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		109C5136BCA618F45DB4BFC4 /* Pods-RNDMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNDMTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNDMTests/Pods-RNDMTests.debug.xcconfig"; sourceTree = "<group>"; };
+		149C5BB76C56DDF05B62E1C4 /* Pods-RNDMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNDMTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNDMTests/Pods-RNDMTests.release.xcconfig"; sourceTree = "<group>"; };
 		336C4FE52290EDA900B14D86 /* RNDM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNDM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		336C4FE82290EDA900B14D86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		336C4FEA2290EDA900B14D86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,14 @@
 		336C50042290EDAA00B14D86 /* RNDMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNDMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		336C50082290EDAA00B14D86 /* RNDMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNDMUITests.swift; sourceTree = "<group>"; };
 		336C500A2290EDAA00B14D86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		336C50162290EE3500B14D86 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		474E6B4B33073F77CFDAEEF4 /* Pods_RNDMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNDMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52150CB78B2EE59384B70934 /* Pods-RNDM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNDM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNDM/Pods-RNDM.debug.xcconfig"; sourceTree = "<group>"; };
+		5BDBEBEA496A943663B6DAF9 /* Pods_RNDMUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNDMUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C90DD395B170FD809AD4DDD /* Pods-RNDMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNDMUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNDMUITests/Pods-RNDMUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A48C6FC44CDE4BBBC392966B /* Pods_RNDM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNDM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E51B90FDAA15CE7545111E62 /* Pods-RNDMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNDMUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNDMUITests/Pods-RNDMUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E7AA44C3FC602343DD64D174 /* Pods-RNDM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNDM.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNDM/Pods-RNDM.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE5A8DFD6982CEB7CACB7675 /* Pods_RNDM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF37E21702D31C940699945F /* Pods_RNDMTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65D5452057E202FF7470271E /* Pods_RNDMUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				336C4FFC2290EDAA00B14D86 /* RNDMTests */,
 				336C50072290EDAA00B14D86 /* RNDMUITests */,
 				336C4FE62290EDA900B14D86 /* Products */,
+				95E45216296A786F64F72E21 /* Pods */,
+				EF87B4B81EA0B628CEA4989D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +119,7 @@
 				336C4FE82290EDA900B14D86 /* AppDelegate.swift */,
 				336C4FEA2290EDA900B14D86 /* ViewController.swift */,
 				336C4FEC2290EDA900B14D86 /* Main.storyboard */,
+				336C50162290EE3500B14D86 /* GoogleService-Info.plist */,
 				336C4FEF2290EDAA00B14D86 /* Assets.xcassets */,
 				336C4FF12290EDAA00B14D86 /* LaunchScreen.storyboard */,
 				336C4FF42290EDAA00B14D86 /* Info.plist */,
@@ -125,6 +145,29 @@
 			path = RNDMUITests;
 			sourceTree = "<group>";
 		};
+		95E45216296A786F64F72E21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52150CB78B2EE59384B70934 /* Pods-RNDM.debug.xcconfig */,
+				E7AA44C3FC602343DD64D174 /* Pods-RNDM.release.xcconfig */,
+				109C5136BCA618F45DB4BFC4 /* Pods-RNDMTests.debug.xcconfig */,
+				149C5BB76C56DDF05B62E1C4 /* Pods-RNDMTests.release.xcconfig */,
+				E51B90FDAA15CE7545111E62 /* Pods-RNDMUITests.debug.xcconfig */,
+				8C90DD395B170FD809AD4DDD /* Pods-RNDMUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF87B4B81EA0B628CEA4989D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A48C6FC44CDE4BBBC392966B /* Pods_RNDM.framework */,
+				474E6B4B33073F77CFDAEEF4 /* Pods_RNDMTests.framework */,
+				5BDBEBEA496A943663B6DAF9 /* Pods_RNDMUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 336C500D2290EDAA00B14D86 /* Build configuration list for PBXNativeTarget "RNDM" */;
 			buildPhases = (
+				B6E8BE2CB3C776B4B9669DF8 /* [CP] Check Pods Manifest.lock */,
 				336C4FE12290EDA900B14D86 /* Sources */,
 				336C4FE22290EDA900B14D86 /* Frameworks */,
 				336C4FE32290EDA900B14D86 /* Resources */,
+				A23164679A24C1D180E4E2A0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 336C50102290EDAA00B14D86 /* Build configuration list for PBXNativeTarget "RNDMTests" */;
 			buildPhases = (
+				3586D1894CBF00C03CEF2852 /* [CP] Check Pods Manifest.lock */,
 				336C4FF52290EDAA00B14D86 /* Sources */,
 				336C4FF62290EDAA00B14D86 /* Frameworks */,
 				336C4FF72290EDAA00B14D86 /* Resources */,
@@ -167,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 336C50132290EDAA00B14D86 /* Build configuration list for PBXNativeTarget "RNDMUITests" */;
 			buildPhases = (
+				3BF5B5CAD1FE954713BACDFD /* [CP] Check Pods Manifest.lock */,
 				336C50002290EDAA00B14D86 /* Sources */,
 				336C50012290EDAA00B14D86 /* Frameworks */,
 				336C50022290EDAA00B14D86 /* Resources */,
@@ -230,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				336C4FF32290EDAA00B14D86 /* LaunchScreen.storyboard in Resources */,
+				336C50172290EE3600B14D86 /* GoogleService-Info.plist in Resources */,
 				336C4FF02290EDAA00B14D86 /* Assets.xcassets in Resources */,
 				336C4FEE2290EDA900B14D86 /* Main.storyboard in Resources */,
 			);
@@ -250,6 +298,93 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3586D1894CBF00C03CEF2852 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNDMTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BF5B5CAD1FE954713BACDFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNDMUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A23164679A24C1D180E4E2A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RNDM/Pods-RNDM-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RNDM/Pods-RNDM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6E8BE2CB3C776B4B9669DF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNDM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		336C4FE12290EDA900B14D86 /* Sources */ = {
@@ -430,9 +565,11 @@
 		};
 		336C500E2290EDAA00B14D86 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52150CB78B2EE59384B70934 /* Pods-RNDM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 826UFXVDY8;
 				INFOPLIST_FILE = RNDM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -441,15 +578,17 @@
 				PRODUCT_BUNDLE_IDENTIFIER = yosuke.RNDM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		336C500F2290EDAA00B14D86 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7AA44C3FC602343DD64D174 /* Pods-RNDM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 826UFXVDY8;
 				INFOPLIST_FILE = RNDM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -458,12 +597,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = yosuke.RNDM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		336C50112290EDAA00B14D86 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 109C5136BCA618F45DB4BFC4 /* Pods-RNDMTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +624,7 @@
 		};
 		336C50122290EDAA00B14D86 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 149C5BB76C56DDF05B62E1C4 /* Pods-RNDMTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +645,7 @@
 		};
 		336C50142290EDAA00B14D86 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E51B90FDAA15CE7545111E62 /* Pods-RNDMUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +665,7 @@
 		};
 		336C50152290EDAA00B14D86 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C90DD395B170FD809AD4DDD /* Pods-RNDMUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
